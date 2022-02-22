@@ -1,10 +1,11 @@
 package com.example.restservice;
 import lombok.Getter;
 
+@Getter
 public class Greeting {
 
-	@Getter private final long id;
-	@Getter private final String content;
+	private final long id;
+	private final String content;
 
 	public Greeting(long id, String content) {
 		this.id = id;
